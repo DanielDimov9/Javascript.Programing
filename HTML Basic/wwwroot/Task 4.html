@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My first HTML</title>
+</head>
+<body>
+    <h2>Text field</h2>
+    <p>[errorMsg]</p>
+    <form>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+
+        <div>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password"
+                   minlength="8" required>
+        </div>
+
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+        <br><br>
+        <label for="cars"> Chose Cars</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="Bike">
+        <label for="vehicle1">I have bike</label><br />
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
+        <label for="vehicle2">I have car</label><br />
+
+        <input type="radio" name="gender"id="male"value="Male">
+        <label for="male">Male</label><br />
+        <input type="radio" name="gender"id="female"value="Female">
+        <label for="male">Female</label><br/>
+        <input type="radio"name="gender"id="other"value="Other">
+        <label for="other">Other</label><br />
+
+        <input type="submit"value="Submit">
+    </form>
+
+</body>
+</html>

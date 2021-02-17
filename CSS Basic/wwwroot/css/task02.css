@@ -1,0 +1,12 @@
+﻿
+﻿table {
+    border: 10px solid green;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 10px solid red;
+    border-radius: 50%;
+}

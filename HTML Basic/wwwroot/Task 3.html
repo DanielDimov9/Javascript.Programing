@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My first HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            padding: 5px;
+            border-collapse: collapse;
+        }
+
+        table {
+            border-spacing: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Task 3</h2>
+    <p>Computer equipments</p>
+
+    <table>
+        <caption>Purchased Euipmnets (June,2006)</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Item Num#</th>
+                <th rowspan="2">Item Picture</th>
+                <th>Item Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <th>Shiping,Handling,etc</th>
+                <th>Expense</th>
+
+            </tr>
+
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="6">Purchased Euipmnets (June,2006)</td>
+                
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="2">1</th>
+                <th rowspan="2">
+                    <img src="image/Computer.jpg" width="100" />
+                </th>
+                <td>IBM Clone Computer</td>
+                <td>400.00$</td>
+            </tr>
+            <tr>
+                <td>Shping,Handling,etc</td>
+                <td>20.00$</td>
+            </tr>
+            <tr>
+                <th rowspan="2">2</th>
+                <th rowspan="2">
+                    <img src="image/RAM.jpg" width="100" />
+                </th>
+                <td>1 GB RAM Module for Computer</td>
+                <td>50.00$</td>
+            </tr>
+            <tr>
+                <td>Shiping,Handling,etc</td>
+                <td>14.00$</td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
