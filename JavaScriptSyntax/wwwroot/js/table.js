@@ -1,14 +1,20 @@
 ﻿function getRandomColor() {
-    var symbols, color;
-    symbols = "0123456789ABCDEF";
-
-    color = "#";
-    for (var i=0; i < 6; i++) {
-        color = color + symbols[Math.floor(Math.random()*16)]
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
     }
-    document.getElementById("first").innerHTML = color;
-    document.body.style.background = color;
+    return color;
 }
+
+
+
+function setRandomColor(element) {
+    element.style.backgroundColor = getRandomColor();
+}
+
+
+
 
 
 
