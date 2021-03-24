@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSS Basic", "CSS Basic\CSS 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptSyntax", "JavaScriptSyntax\JavaScriptSyntax.csproj", "{329F14E8-C5EF-4123-99C2-4BAF4FABD32C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptFunctions05", "JavaScriptFunctions05\JavaScriptFunctions05.csproj", "{7DE00120-F38A-4B4E-97B8-50E7B5381D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JavaScriptFunctions05", "JavaScriptFunctions05\JavaScriptFunctions05.csproj", "{7DE00120-F38A-4B4E-97B8-50E7B5381D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScript06", "JavaScript06\JavaScript06.csproj", "{FCD36E2F-BF3E-4DAB-9482-376B1BB00F14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7DE00120-F38A-4B4E-97B8-50E7B5381D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DE00120-F38A-4B4E-97B8-50E7B5381D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DE00120-F38A-4B4E-97B8-50E7B5381D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD36E2F-BF3E-4DAB-9482-376B1BB00F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD36E2F-BF3E-4DAB-9482-376B1BB00F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD36E2F-BF3E-4DAB-9482-376B1BB00F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD36E2F-BF3E-4DAB-9482-376B1BB00F14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
