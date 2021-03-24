@@ -27,7 +27,7 @@ namespace JavaScript06
             }
 
             app.UseRouting();
-
+            app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
